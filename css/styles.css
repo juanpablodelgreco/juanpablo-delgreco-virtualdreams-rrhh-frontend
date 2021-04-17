@@ -2,10 +2,19 @@ body {
     font-family: 'Noto Sans JP';
 }
 
+
+/* HEADER */
+
 header {
     background-color: #0062ff;
-    /*     padding-left: 200px;
-    padding-right: 200px; */
+}
+
+.navbar-toggler {
+    color: #FFFF !important;
+}
+
+ul li {
+    margin-right: 100px;
 }
 
 .btn,
@@ -32,17 +41,8 @@ textarea {
     display: none;
 }
 
-.navbar-toggler {
-    color: #FFFF !important;
-}
 
-ul li {
-    margin-right: 100px;
-}
-
-#nav-toggle-button {
-    background-color: red;
-}
+/* RESPONSIVE */
 
 @media only screen and (max-width: 1035px) {
     ul li {
